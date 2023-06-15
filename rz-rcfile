@@ -1,0 +1,11 @@
+HISTSIZE=6000
+SAVEHIST=6000
+HISTFILE=~/.zsh_history
+HIST_STAMPS="%Y-%m-%d %H:%M:%S"
+setopt EXTENDED_HISTORY
+
+source ~/ohmyzsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+export ZSH=$HOME/ohmyzsh
+ZSH_THEME="rkj-repos"
+plugins=(git z kubectl cp fzf helm history docker sudo rsync command-not-found zsh-autosuggestions zsh-syntax-highlighting)
+source $ZSH/oh-my-zsh.sh
