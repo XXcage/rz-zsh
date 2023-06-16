@@ -8,11 +8,8 @@ then
     # Update package information
     sudo apt update
 
-    # Install Zsh
-    sudo apt install -y zsh
-
-    # Install fzf
-    sudo apt install -y fzf
+    # Install Zsh and fzf
+    sudo apt install -y zsh fzf
 
     # Clone Oh My Zsh
     git clone https://github.com/XXcage/ohmyzsh.git ~/.oh-my-zsh
