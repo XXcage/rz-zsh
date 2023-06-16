@@ -22,7 +22,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/
 git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.oh-my-zsh/plugins/zsh-autosuggestions
 
 # Set Zsh as the default shell
-sudo chsh -s /usr/bin/zsh
+sudo chsh -s /usr/bin/zsh $USER
 
 # Print completion message
 echo "Zsh installation complete. Please restart your terminal."
