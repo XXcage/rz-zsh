@@ -2,7 +2,7 @@
 
 release_file=/etc/os-release
 
-if grep -q "Debian" $release_file || grep -q "Ubuntu" $release_file
+if grep -qi "Debian" $release_file || grep -qi "Ubuntu" $release_file
 then
 
     # Update package information
